@@ -15,7 +15,7 @@ $(function(){
 	//今日の日付データを作成する
 	var today = new Date();
 	//来年1月1日の日付データを作成する
-	var startday= new Date("2019/8/12");
+	var startday= new Date("2021/12/1");
 	//来年1月1日－今日のミリ秒を計算し、日にちに換算する
 	var day = Math.ceil((today-startday)/(60*60*24*1000));
 	$('#ruby_stady').text(day);
