@@ -612,7 +612,7 @@ body::before {
 
 .left_space img{
   width: 80%;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   margin-top: 20px;
 }
 
